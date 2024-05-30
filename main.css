@@ -1,0 +1,30 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.left-section {
+  width: 100%;
+}
+.right-section {
+  width: 100%;
+  margin-top: 64px;
+}
+
+@media only screen and (min-width: 768px) {
+  .body {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+  }
+
+  .left-section {
+    width: 30%;
+  }
+  .right-section {
+    width: 70%;
+    padding: 65px 32px;
+    margin-top: 0px;
+  }
+}
