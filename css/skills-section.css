@@ -63,7 +63,7 @@
 
 .skills-second-sec {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
   width: 100%;
   column-gap: 8px;
   row-gap: 8px;
@@ -90,6 +90,18 @@
   width: 1px;
   background-color: #e2e6ee;
   height: 100%;
+  margin: 0px 10px;
+}
+
+.horiz-tab {
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal-divider {
+  height: 1px;
+  background-color: #e2e6ee;
+  width: 100%;
 }
 
 .first-skill-tab-1 {
@@ -181,7 +193,9 @@
 
   .skills-second-sec {
     display: flex;
-    flex-flow: row;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     column-gap: 8px;
     row-gap: 8px;
@@ -189,6 +203,7 @@
 
   .first-skill-tab {
     display: flex;
+    flex: 0 1 100px;
     flex-direction: row;
     align-items: center;
     padding: 23px 16px;
@@ -198,7 +213,9 @@
 
   .first-skill-tab-col {
     display: flex;
+    flex: 1 1 70px;
     flex-direction: column;
+    align-items: center;
     padding: 23px 10px;
     background-color: #f7f9fc;
     border-radius: 2px;
