@@ -20,6 +20,7 @@
   line-height: 40px;
   margin-bottom: 8px;
 }
+
 .occupation {
   font-size: 24px;
   line-height: 32px;
@@ -29,17 +30,16 @@
   margin-bottom: 32px;
 }
 
- .divider {
-    height: 1.5px;
-    width: 100%;
-    background-color: grey;
-  }
+.divider {
+  height: 1.5px;
+  width: 100%;
+  background-color: grey;
+}
 
 .quote {
   font-size: 18px;
   font-weight: 500;
   display: flex;
-  /* flex-flow: row wrap; */
   column-gap: 2px;
   margin-bottom: 32.32px;
 }
@@ -50,6 +50,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .quote-desc {
   padding: 0px 10px;
   margin-bottom: 4px;
@@ -205,8 +206,6 @@
   color: #79819a;
 }
 
-/* large screen */
-
 @media only screen and (min-width: 768px) {
   .main-section {
     padding: 20px;
@@ -217,198 +216,32 @@
   }
 
   .profile-image {
-    width: 100%;
-    margin-bottom: 32.32px;
-    object-fit: cover;
     height: 161px;
   }
 
   .username {
-    font-size: 33px;
-    font-weight: 500;
     line-height: 40px;
-    margin-bottom: 8px;
-  }
-  .occupation {
-    font-size: 24px;
-    line-height: 32px;
-    background: linear-gradient(to right, #a478e8, #516cf7);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 32px;
   }
 
   .quote {
-    font-size: 18px;
-    font-weight: 500;
-    display: flex;
     flex-flow: row wrap;
-    column-gap: 2px;
-    margin-bottom: 32.32px;
   }
 
   .quote-main-desc {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
     align-items: start;
-  }
-
-  .quote-desc {
-    padding: 0px 10px;
-    margin-bottom: 4px;
-    font-size: 18.18px;
-    position: relative;
-  }
-
-  .quote-desc::before {
-    position: absolute;
-    left: -0px;
-    content: "“";
-    color: #79819a;
-  }
-
-  .quote-desc::after {
-    content: "”";
-    position: absolute;
-    right: 0px;
-    color: #79819a;
-  }
-
-  .quote-owner {
-    color: #79819a;
-    font-size: 12.12px;
-    padding: 0 10px;
-  }
-
-  .quote-mark {
-    color: #79819a;
-  }
-
-  .divider {
-    height: 1.5px;
-    width: 100%;
-    background-color: grey;
   }
 
   .contact-list {
-    margin: 32.32px 0px;
-    display: flex;
     flex-direction: column;
-    row-gap: 24.24px;
   }
 
   .contact-list-row {
-    display: flex;
     flex-direction: column;
-    row-gap: 24.24px;
-  }
-
-  .contact-list-item {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    column-gap: 16.16px;
-  }
-
-  .contact-image-div {
-    height: 33px;
-    width: 33px;
-    border-radius: 50%;
-    display: flex;
-    background: #e2e6ee;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .twitter-image-div {
-    height: 33px;
-    width: 33px;
-    min-width: 33px;
-    border-radius: 50%;
-    display: flex;
-    background: #00acee;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .linkedin-image-div {
-    height: 33px;
-    width: 33px;
-    min-width: 33px;
-    border-radius: 50%;
-    display: flex;
-    background: #0077b5;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .contact-image {
-    height: 33px;
-    width: 33px;
-    min-height: 33px;
-    min-width: 33px;
-    object-fit: cover;
-  }
-
-  .contact-details {
-    display: flex;
-    flex-direction: column;
-    row-gap: 4px;
-  }
-
-  .contact-title {
-    font-size: 12.12px;
-    font-weight: 400;
-    color: #79819a;
-  }
-
-  .contact-data {
-    font-size: 14px;
-    font-weight: 500;
-    color: #47516b;
-  }
-
-  .socials-section {
-    margin: 32.32px 0px;
-  }
-
-  .socials-title {
-    margin-bottom: 24.24px;
-    font-size: 12.12px;
-    font-weight: 400;
-    color: #79819a;
   }
 
   .language-list-item {
     display: flex;
-    flex: 100%;
     flex-direction: row;
     align-items: center;
-    column-gap: 16.16px;
-  }
-
-  .language-image {
-    width: 10.77px;
-    height: 24.24px;
-    gap: 0px;
-  }
-
-  .language-details {
-    display: flex;
-    flex-direction: column;
-    row-gap: 4px;
-  }
-
-  .language-title {
-    font-size: 14.14px;
-    font-weight: 050;
-    color: #47516b;
-  }
-
-  .language-data {
-    font-size: 12.12px;
-    font-weight: 400;
-    color: #79819a;
   }
 }

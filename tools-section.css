@@ -44,30 +44,18 @@
   color: #79819a;
 }
 
+/* Desktop view */
 @media only screen and (min-width: 768px) {
   .tools-list {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
     padding-top: 32.32px;
     row-gap: 16px;
   }
 
   .tools-top-list {
-    display: flex;
-    flex-direction: row;
-    column-gap: 8px;
-    row-gap: 8px;
     flex-wrap: wrap;
   }
 
   .tools-list-item {
-    background-color: #f7f9fc;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 8px;
-    padding: 19px 30px;
     flex: 0 1 23%;
   }
 
