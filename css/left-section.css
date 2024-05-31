@@ -181,7 +181,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: start;
+  align-items: center;
   column-gap: 16.16px;
 }
 
