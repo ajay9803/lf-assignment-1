@@ -55,7 +55,6 @@
   min-height: 13px;
   min-width: 13px;
 }
-
 .skills-title {
   font-weight: 500;
   font-size: 14px;
@@ -70,18 +69,23 @@
   row-gap: 8px;
 }
 
-.first-skill-tab,
-.first-skill-tab-col {
+.first-skill-tab {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   padding: 23px 16px;
   background-color: #f7f9fc;
   border-radius: 2px;
-  font-family: "DM Sans", sans-serif;
 }
 
 .first-skill-tab-col {
+  display: flex;
+  flex-direction: column;
   padding: 23px 10px;
+  background-color: #f7f9fc;
+  border-radius: 2px;
 }
 
 .vertical-divider {
@@ -101,14 +105,22 @@
   padding-left: 16px;
 }
 
-/* Desktop view */
+/* desktop view  */
+
 @media only screen and (min-width: 768px) {
   .skills-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     padding-top: 32.32px;
     row-gap: 16px;
   }
 
   .skills-list-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
     color: #9251f7;
   }
 
@@ -117,15 +129,34 @@
   }
 
   .skills-title-sec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
     min-width: 113px;
   }
 
   .skills-img-main-div {
+    height: 24px;
+    width: 24px;
+    min-height: 24px;
+    min-width: 24px;
+    border-radius: 50%;
     background-color: #efe2f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .skills-img-main-div-1 {
+    height: 24px;
+    width: 24px;
+    min-height: 24px;
+    min-width: 24px;
+    border-radius: 50%;
     background-color: #e1e7fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .skills-img {
@@ -134,7 +165,6 @@
     min-height: 13px;
     min-width: 13px;
   }
-
   .skills-title {
     font-weight: 500;
     font-size: 14px;
@@ -142,18 +172,30 @@
   }
 
   .skills-second-sec {
+    display: flex;
     flex-flow: row;
+    width: 100%;
     column-gap: 8px;
     row-gap: 8px;
   }
 
-  .first-skill-tab,
-  .first-skill-tab-col {
+  .first-skill-tab {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     padding: 23px 16px;
+    background-color: #f7f9fc;
+    border-radius: 2px;
   }
 
   .first-skill-tab-col {
+    display: flex;
+    flex-direction: column;
     padding: 23px 10px;
+    background-color: #f7f9fc;
+    border-radius: 2px;
   }
 
   .vertical-divider {
