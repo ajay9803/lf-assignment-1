@@ -70,11 +70,9 @@
 }
 
 .first-skill-tab {
-  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
   padding: 23px 16px;
   background-color: #f7f9fc;
   border-radius: 2px;
@@ -95,6 +93,15 @@
 }
 
 .first-skill-tab-1 {
+  text-align: center;
+  padding: 7px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.first-skill-tab-1-ul {
+  text-align: start;
   padding: 7px;
   font-weight: 500;
   font-size: 14px;
@@ -103,6 +110,7 @@
 
 .ul-list {
   padding-left: 16px;
+  text-align: start;
 }
 
 /* desktop view  */
@@ -180,11 +188,9 @@
   }
 
   .first-skill-tab {
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     padding: 23px 16px;
     background-color: #f7f9fc;
     border-radius: 2px;
@@ -205,6 +211,7 @@
   }
 
   .first-skill-tab-1 {
+    text-align: center;
     padding: 7px;
     font-weight: 500;
     font-size: 14px;
@@ -213,5 +220,6 @@
 
   .ul-list {
     padding-left: 16px;
+    text-align: start;
   }
 }
