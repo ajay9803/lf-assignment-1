@@ -6,6 +6,9 @@
 
 .left-section {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
 }
 .right-section {
   width: 100%;
