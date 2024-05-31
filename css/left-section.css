@@ -90,7 +90,7 @@
 
 .contact-list-row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   row-gap: 24.24px;
   width: 100%;
   column-gap: 2px;
@@ -208,6 +208,16 @@
   font-weight: 400;
   color: #79819a;
   font-family: "DM Sans", sans-serif;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .contact-list-row {
+    display: flex;
+    flex-direction: row;
+    row-gap: 24.24px;
+    width: 100%;
+    column-gap: 2px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
