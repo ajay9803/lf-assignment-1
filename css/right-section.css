@@ -87,12 +87,14 @@
   font-size: 16.16px;
   font-weight: 500;
   color: #2e2e48;
+  font-family: "DM Sans", sans-serif;
 }
 
 .latest-project-item-details-desc {
   font-size: 14px;
   font-weight: 400;
   color: #79819a;
+  font-family: "DM Sans", sans-serif;
 }
 
 .latest-project-item-link {

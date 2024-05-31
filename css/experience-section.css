@@ -57,10 +57,18 @@
   column-gap: 4px;
 }
 
-.exp-item-mid-sec-top-date,
-.exp-item-mid-sec-top-location {
+.exp-item-mid-sec-top-date {
+  color: #47516b;
   font-size: 10px;
   font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+}
+
+.exp-item-mid-sec-top-location {
+  color: #79819a;
+  font-size: 10px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
 }
 
 .exp-item-mid-sec-mid {
@@ -87,12 +95,14 @@
   font-size: 12px;
   font-weight: 400;
   color: #79819a;
+  font-family: "DM Sans", sans-serif;
 }
 
 .exp-item-mid-sec-mid-subtitle {
   font-size: 14px;
   font-weight: 500;
   color: #2e2e48;
+  font-family: "DM Sans", sans-serif;
 }
 
 .experience-item-second-section {
@@ -100,6 +110,7 @@
   color: #79819a;
   font-weight: 400;
   font-size: 10.1px;
+  font-family: "DM Sans", sans-serif;
 }
 
 /* Desktop view */
@@ -174,15 +185,18 @@
     font-size: 12px;
     font-weight: 400;
     color: #79819a;
+    font-family: "DM Sans", sans-serif;
   }
 
   .exp-item-mid-sec-mid-subtitle {
     font-size: 14px;
     font-weight: 500;
     color: #2e2e48;
+    font-family: "DM Sans", sans-serif;
   }
 
   .experience-item-second-section {
     width: 60%;
+    font-family: "DM Sans", sans-serif;
   }
 }

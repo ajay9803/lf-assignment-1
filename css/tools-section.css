@@ -36,12 +36,15 @@
   font-size: 14px;
   font-weight: 500;
   color: #2e2e48;
+  font-family: "DM Sans" sans-serif;
 }
 
 .tool-subtitle {
+  text-align: center;
   font-size: 10px;
   font-weight: 400;
   color: #79819a;
+  font-family: "DM Sans" sans-serif;
 }
 
 /* Desktop view */
@@ -77,11 +80,14 @@
     font-size: 14px;
     font-weight: 500;
     color: #2e2e48;
+    font-family: "DM Sans" sans-serif;
   }
 
   .tool-subtitle {
+    text-align: center;
     font-size: 10px;
     font-weight: 400;
     color: #79819a;
+    font-family: "DM Sans" sans-serif;
   }
 }

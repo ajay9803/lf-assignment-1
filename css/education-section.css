@@ -27,6 +27,7 @@
   font-weight: 500;
   font-size: 12px;
   color: #2e2e48;
+  font-family: "DM Sans", sans-serif;
 }
 
 .education-subtitle {
@@ -35,12 +36,14 @@
   color: #2e2e48;
   margin-top: 8px;
   margin-bottom: 2px;
+  font-family: "DM Sans", sans-serif;
 }
 
 .education-time {
   font-size: 10px;
   font-weight: 400;
   color: #79819a;
+  font-family: "DM Sans", sans-serif;
 }
 
 /* Desktop view */
