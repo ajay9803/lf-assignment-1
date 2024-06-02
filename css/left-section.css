@@ -1,6 +1,7 @@
 .left-section {
   display: flex;
   flex-direction: column;
+   
   align-items: center;
 }
 
@@ -14,6 +15,7 @@
   padding: 48px;
   background-color: #f7f9fc;
   width: 100%;
+  height: 100%;
 }
 
 .left-section__username {
