@@ -4,13 +4,13 @@
   background-color: white;
 }
 
-.left-section {
+.body__left-section {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 0px;
 }
-.right-section {
+.body__right-section {
   width: 100%;
   margin-top: 64px;
 }
@@ -22,14 +22,14 @@
     background-color: white;
   }
 
-  .left-section {
+  .body__left-section {
     width: 30%;
     display: flex;
     flex-direction: column;
     gap: 0px;
   }
 
-  .right-section {
+  .body__right-section {
     width: 70%;
     padding: 65px 32px;
     margin-top: 0px;

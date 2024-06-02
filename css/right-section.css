@@ -1,11 +1,3 @@
-.latest-projects {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  padding-left: 32px;
-  padding-right: 48px;
-}
-
 .the-timeline {
   display: flex;
   flex-direction: column;
@@ -38,7 +30,15 @@
   background-color: #e2e6ee;
 }
 
-.latest-project-data {
+.projects {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 32px;
+  padding-right: 48px;
+}
+
+.projects__data {
   display: flex;
   flex-direction: column;
   padding-left: 32.32px;
@@ -46,13 +46,13 @@
   width: 100%;
 }
 
-.latest-project-title {
+.projects__title {
   font-size: 24.24px;
   font-weight: 500;
   color: #2e2e48;
 }
 
-.latest-project-list {
+.projects__list {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -61,7 +61,7 @@
   row-gap: 8px;
 }
 
-.latest-project-item {
+.projects__item {
   width: 100%;
   background-color: #f7f9fc;
   display: flex;
@@ -70,41 +70,41 @@
   padding: 24.24px;
 }
 
-.latest-project-item-sub1 {
+.projects__item-sub1 {
   display: flex;
   flex-direction: row;
   align-items: start;
   column-gap: 8px;
 }
 
-.latest-project-item-details {
+.projects__item-details {
   display: flex;
   flex-direction: column;
   row-gap: 4.5px;
 }
 
-.latest-project-item-details-title {
+.projects__item-details-title {
   font-size: 16.16px;
   font-weight: 500;
   color: #2e2e48;
   font-family: "DM Sans", sans-serif;
 }
 
-.latest-project-item-details-desc {
+.projects__item-details-desc {
   font-size: 14px;
   font-weight: 400;
   color: #79819a;
   font-family: "DM Sans", sans-serif;
 }
 
-.latest-project-item-link {
+.projects__item-link {
   display: flex;
   flex-direction: row;
   align-items: center;
   column-gap: 12.12px;
 }
 
-.latest-project-item-link-circle {
+.projects__item-link-circle {
   height: 24.24px;
   width: 24.24px;
   border-radius: 50%;
@@ -114,7 +114,7 @@
   align-items: center;
 }
 
-.link-desc {
+.projects__link-desc {
   font-size: 16.16px;
   font-weight: 600;
   color: #516cf7;
@@ -122,25 +122,25 @@
 
 /* Desktop view */
 @media only screen and (min-width: 768px) {
-  .latest-projects {
+  .projects {
     padding-top: 0px;
     padding-left: 0px;
     padding: 0px;
   }
 
-  .latest-project-list {
+  .projects__list {
     flex-direction: row;
   }
 
-  .latest-project-item {
+  .projects__item {
     flex-direction: column;
   }
 
-  .latest-project-item-sub1 {
+  .projects__item-sub1 {
     flex-direction: row;
   }
 
-  .latest-project-item-link {
+  .projects__item-link {
     flex-direction: row;
   }
 }

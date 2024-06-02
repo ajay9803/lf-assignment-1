@@ -7,7 +7,7 @@
   row-gap: 8px;
 }
 
-.education-list-item {
+.education-list__item {
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -16,21 +16,21 @@
   padding: 16px 24px;
 }
 
-.education-list-item-top {
+.education-list__item-top {
   display: flex;
   flex-direction: row;
   align-items: center;
   column-gap: 16px;
 }
 
-.education-title {
+.education__title {
   font-weight: 500;
   font-size: 12px;
   color: #2e2e48;
   font-family: "DM Sans", sans-serif;
 }
 
-.education-subtitle {
+.education__subtitle {
   font-size: 14px;
   font-weight: 500;
   color: #2e2e48;
@@ -39,7 +39,7 @@
   font-family: "DM Sans", sans-serif;
 }
 
-.education-time {
+.education__time {
   font-size: 10px;
   font-weight: 400;
   color: #79819a;
@@ -54,11 +54,11 @@
     padding-top: 32.32px;
   }
 
-  .education-list-item {
+  .education-list__item {
     flex: 1 1 200px;
   }
 
-  .education-list-item-top {
+  .education-list__item-top {
     column-gap: 16px;
   }
 }

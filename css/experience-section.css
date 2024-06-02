@@ -3,21 +3,21 @@
   flex-direction: column;
   width: 100%;
   padding-top: 32.32px;
-  row-gap: 16.16px;
+  gap: 24px;
 }
 
-.experience-list-item {
+.experience-list__item {
   width: 100%;
   display: flex;
-  justify-content: start;
-  column-gap: 8px;
+  justify-content: flex-start;
+  gap: 8px;
 }
 
 .exp-dynamic-section {
   width: 100%;
   display: flex;
   flex-direction: column;
-  row-gap: 16px;
+  gap: 16px;
 }
 
 .experience-item-first-section-timeline {
@@ -38,7 +38,7 @@
 .experience-item-first-section-timeline-line {
   width: 1.1px;
   height: 100%;
-  background-color: #F7F9FC;
+  background-color: #f7f9fc;
   margin-top: 8.96px;
 }
 
@@ -46,25 +46,29 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  row-gap: 8px;
+  gap: 8px;
 }
 
 .exp-item-mid-sec-top {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: start;
-  column-gap: 4px;
+  justify-content: flex-start;
+  gap: 4px;
 }
 
-.exp-item-mid-sec-top-date {
+.exp-item-mid-sec-top__date {
   color: #47516b;
-  font-size: 10px;
+  font-size: 10.1px;
   font-weight: 400;
+  line-height: 13.15px;
+  letter-spacing: 0.01em;
+  text-align: left;
+
   font-family: "DM Sans", sans-serif;
 }
 
-.exp-item-mid-sec-top-location {
+.exp-item-mid-sec-top__location {
   color: #79819a;
   font-size: 10px;
   font-weight: 400;
@@ -75,8 +79,8 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: start;
-  justify-content: start;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .apple-image {
@@ -88,17 +92,17 @@
 .exp-item-mid-sec-data {
   display: flex;
   flex-direction: column;
-  row-gap: 4px;
+  gap: 4px;
 }
 
-.exp-item-mid-sec-mid-title {
+.exp-item-mid-sec-mid__title {
   font-size: 12px;
   font-weight: 400;
   color: #79819a;
   font-family: "DM Sans", sans-serif;
 }
 
-.exp-item-mid-sec-mid-subtitle {
+.exp-item-mid-sec-mid__subtitle {
   font-size: 14px;
   font-weight: 500;
   color: #2e2e48;
@@ -119,11 +123,11 @@
     padding-top: 32.32px;
   }
 
-  .experience-list-item {
+  .experience-list__item {
     width: 100%;
     display: flex;
-    justify-content: start;
-    column-gap: 8px;
+    justify-content: flex-start;
+    gap: 8px;
   }
 
   .experience-item-first-section-timeline {
@@ -144,7 +148,7 @@
   .experience-item-first-section-timeline-line {
     width: 1.1px;
     height: 100%;
-    background-color: #F7F9FC;
+    background-color: #f7f9fc;
     margin-top: 8.96px;
   }
 
@@ -152,21 +156,21 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: flex-start;
   }
 
   .exp-item-mid-sec {
     width: 40%;
     display: flex;
     flex-direction: column;
-    row-gap: 8px;
+    gap: 8px;
   }
 
   .exp-item-mid-sec-top {
     width: 100%;
     display: flex;
     flex-direction: row;
-    column-gap: 4px;
+    gap: 4px;
   }
 
   .apple-image {
@@ -178,17 +182,17 @@
   .exp-item-mid-sec-data {
     display: flex;
     flex-direction: column;
-    row-gap: 4px;
+    gap: 4px;
   }
 
-  .exp-item-mid-sec-mid-title {
+  .exp-item-mid-sec-mid__title {
     font-size: 12px;
     font-weight: 400;
     color: #79819a;
     font-family: "DM Sans", sans-serif;
   }
 
-  .exp-item-mid-sec-mid-subtitle {
+  .exp-item-mid-sec-mid__subtitle {
     font-size: 14px;
     font-weight: 500;
     color: #2e2e48;
