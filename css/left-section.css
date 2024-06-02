@@ -21,6 +21,7 @@
   font-weight: 500;
   line-height: 40px;
   margin-bottom: 8px;
+  text-align: start;
 }
 
 .left-section__occupation {
@@ -30,6 +31,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 32px;
+  text-align: start;
 }
 
 .left-section__quote {
@@ -228,9 +230,19 @@
   .left-section__quote {
     justify-content: center;
   }
+
+  .left-section__username,
+  .left-section__occupation {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  .left-section__username,
+  .left-section__occupation {
+    text-align: center;
+  }
+
   .left-section__main {
     padding: 20px;
     display: flex;
