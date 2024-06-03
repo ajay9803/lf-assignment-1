@@ -1,10 +1,10 @@
-.the-timeline {
+.right-section__timeline {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.the-circle {
+.right-section__timeline-circle {
   height: 32.32px;
   width: 32.32px;
   min-width: 32.32px;
@@ -17,20 +17,20 @@
   z-index: 1;
 }
 
-.small-circle {
+.right-section__small-circle {
   height: 8.5px;
   width: 8.5px;
   border-radius: 50%;
   background-color: #5531a7;
 }
 
-.the-line {
+.right-section__timeline-line {
   width: 1.1px;
   height: 100%;
   background-color: #e2e6ee;
 }
 
-.projects {
+.right-section__container {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -38,7 +38,7 @@
   padding-right: 48px;
 }
 
-.projects__data {
+.right-section__container-data {
   display: flex;
   flex-direction: column;
   padding-left: 32.32px;
@@ -46,101 +46,16 @@
   width: 100%;
 }
 
-.projects__title {
+.right-section__container-title {
   font-size: 24.24px;
   font-weight: 500;
   color: #2e2e48;
 }
 
-.projects__list {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  column-gap: 8px;
-  margin-top: 32.32px;
-  row-gap: 8px;
-}
-
-.projects__item {
-  width: 100%;
-  background-color: #f7f9fc;
-  display: flex;
-  flex-direction: column;
-  row-gap: 16.16px;
-  padding: 24.24px;
-}
-
-.projects__item-sub1 {
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  column-gap: 8px;
-}
-
-.projects__item-details {
-  display: flex;
-  flex-direction: column;
-  row-gap: 4.5px;
-}
-
-.projects__item-details-title {
-  font-size: 16.16px;
-  font-weight: 500;
-  color: #2e2e48;
-  font-family: "DM Sans", sans-serif;
-}
-
-.projects__item-details-desc {
-  font-size: 14px;
-  font-weight: 400;
-  color: #79819a;
-  font-family: "DM Sans", sans-serif;
-}
-
-.projects__item-link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  column-gap: 12.12px;
-}
-
-.projects__item-link-circle {
-  height: 24.24px;
-  width: 24.24px;
-  border-radius: 50%;
-  background-color: rgb(158, 207, 227);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.projects__link-desc {
-  font-size: 16.16px;
-  font-weight: 600;
-  color: #516cf7;
-}
-
-/* Desktop view */
 @media only screen and (min-width: 768px) {
-  .projects {
+  .right-section__container {
     padding-top: 0px;
     padding-left: 0px;
-    padding: 0px;
-  }
-
-  .projects__list {
-    flex-direction: row;
-  }
-
-  .projects__item {
-    flex-direction: column;
-  }
-
-  .projects__item-sub1 {
-    flex-direction: row;
-  }
-
-  .projects__item-link {
-    flex-direction: row;
+    padding-right: 0px;
   }
 }

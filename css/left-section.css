@@ -1,24 +1,17 @@
-.left-section {
-  display: flex;
-  flex-direction: column;
-   
-  align-items: center;
-}
-
 .left-section__profile-img {
   width: 100%;
   object-fit: cover;
   height: 280px;
 }
 
-.left-section__main {
+.profile {
   padding: 48px;
   background-color: #f7f9fc;
   width: 100%;
   height: 100%;
 }
 
-.left-section__username {
+.profile__username {
   font-size: 33px;
   font-weight: 500;
   line-height: 40px;
@@ -26,7 +19,7 @@
   text-align: start;
 }
 
-.left-section__occupation {
+.profile__occupation {
   font-size: 24px;
   line-height: 32px;
   background: linear-gradient(to right, #a478e8, #516cf7);
@@ -36,53 +29,53 @@
   text-align: start;
 }
 
-.left-section__quote {
+.profile__quote {
   display: flex;
   justify-content: start;
   margin-bottom: 32.32px;
 }
 
-.left-section__quote-content {
+.profile__quote-content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.left-section__quote-desc {
+.profile__quote-desc {
   padding: 0px 10px;
   margin-bottom: 4px;
   font-size: 18.18px;
   position: relative;
 }
 
-.left-section__quote-desc::before {
+.profile__quote-desc::before {
   position: absolute;
   left: -0px;
   content: "“";
   color: #79819a;
 }
 
-.left-section__quote-desc::after {
+.profile__quote-desc::after {
   content: "”";
   position: absolute;
   right: 0px;
   color: #79819a;
 }
 
-.left-section__quote-owner {
+.profile__quote-owner {
   color: #79819a;
   font-size: 12.12px;
   padding: 0 10px;
   font-family: "DM Sans", sans-serif;
 }
 
-.left-section__divider {
+.profile__divider {
   height: 1.5px;
   width: 100%;
-  background-color: grey;
+  background-color: #e2e6ee;
 }
 
-.left-section__contact {
+.profile__contact {
   margin: 32.32px 0px;
   display: flex;
   flex-direction: column;
@@ -91,7 +84,7 @@
   row-gap: 24.24px;
 }
 
-.left-section__contact-row {
+.profile__contact-row {
   display: flex;
   flex-direction: column;
   row-gap: 24.24px;
@@ -99,7 +92,7 @@
   column-gap: 2px;
 }
 
-.left-section__contact-item {
+.profile__contact-item {
   display: flex;
   flex: 100%;
   flex-direction: row;
@@ -107,7 +100,7 @@
   column-gap: 16.16px;
 }
 
-.left-section__contact-icon {
+.profile__contact-icon {
   height: 33px;
   width: 33px;
   min-width: 33px;
@@ -118,31 +111,31 @@
   align-items: center;
 }
 
-.left-section__contact-info {
+.profile__contact-info {
   display: flex;
   flex-direction: column;
   row-gap: 4px;
 }
 
-.left-section__contact-title {
+.profile__contact-title {
   font-size: 12.12px;
   font-weight: 400;
   color: #79819a;
   font-family: "DM Sans", sans-serif;
 }
 
-.left-section__contact-data {
+.profile__contact-data {
   font-size: 14px;
   font-weight: 500;
   color: #47516b;
 }
 
-.left-section__social {
+.profile__social {
   margin: 32.32px 0px;
   width: 100%;
 }
 
-.left-section__social-title {
+.profile__social-title {
   margin-bottom: 24.24px;
   font-size: 12.12px;
   font-weight: 400;
@@ -150,7 +143,7 @@
   font-family: "DM Sans", sans-serif;
 }
 
-.left-section__contact-img {
+.profile__contact-img {
   height: 33px;
   width: 33px;
   min-height: 33px;
@@ -158,7 +151,7 @@
   object-fit: cover;
 }
 
-.left-section__twitter-icon {
+.profile__twitter-icon {
   height: 33px;
   width: 33px;
   min-width: 33px;
@@ -169,7 +162,7 @@
   align-items: center;
 }
 
-.left-section__linkedin-icon {
+.profile__linkedin-icon {
   height: 33px;
   width: 33px;
   min-width: 33px;
@@ -180,12 +173,12 @@
   align-items: center;
 }
 
-.left-section__languages {
+.profile__languages {
   margin: 32.32px 0px;
   width: 100%;
 }
 
-.left-section__languages-title {
+.profile__languages-title {
   margin-bottom: 24.24px;
   font-size: 12.12px;
   font-weight: 400;
@@ -193,7 +186,7 @@
   font-family: "DM Sans", sans-serif;
 }
 
-.left-section__language-item {
+.profile__language-item {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -201,19 +194,19 @@
   column-gap: 16.16px;
 }
 
-.left-section__language-info {
+.profile__language-info {
   display: flex;
   flex-direction: column;
   row-gap: 4px;
 }
 
-.left-section__language-title {
+.profile__language-title {
   font-size: 14.14px;
   font-weight: 050;
   color: #47516b;
 }
 
-.left-section__language-data {
+.profile__language-data {
   font-size: 12.12px;
   font-weight: 400;
   color: #79819a;
@@ -221,7 +214,7 @@
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  .left-section__contact-row {
+  .profile__contact-row {
     display: flex;
     flex-direction: row;
     row-gap: 24.24px;
@@ -229,23 +222,23 @@
     column-gap: 2px;
   }
 
-  .left-section__quote {
+  .profile__quote {
     justify-content: center;
   }
 
-  .left-section__username,
-  .left-section__occupation {
+  .profile__username,
+  .profile__occupation {
     text-align: center;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .left-section__username,
-  .left-section__occupation {
+  .profile__username,
+  .profile__occupation {
     text-align: center;
   }
 
-  .left-section__main {
+  .profile {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -253,35 +246,36 @@
     background-color: #f7f9fc;
   }
 
-  .left-section__quote {
+  .profile__quote {
     justify-content: center;
   }
 
-  .left-section__profile-img {
+  .profile__profile-img {
     height: 161px;
   }
 
-  .left-section__username {
+  .profile__username {
     line-height: 40px;
+    text-align: start;
   }
 
-  .left-section__quote {
+  .profile__quote {
     flex-flow: row wrap;
   }
 
-  .left-section__quote-content {
+  .profile__quote-content {
     align-items: start;
   }
 
-  .left-section__contact {
+  .profile__contact {
     flex-direction: column;
   }
 
-  .left-section__contact-row {
+  .profile__contact-row {
     flex-direction: column;
   }
 
-  .left-section__language-item {
+  .profile__language-item {
     display: flex;
     flex-direction: row;
     align-items: center;

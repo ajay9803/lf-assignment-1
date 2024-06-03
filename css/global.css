@@ -1,0 +1,9 @@
+/* global css  */
+
+.hide-item {
+  visibility: hidden;
+}
+
+.global-font {
+  font-family: "Outfit", sans-serif;
+}
