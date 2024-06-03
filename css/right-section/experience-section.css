@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-top: 32.32px;
+  padding-top: 32px;
   gap: 24px;
 }
 
@@ -27,16 +27,16 @@
 }
 
 .exp-item__first-section-timeline-circle {
-  height: 6.31px;
-  width: 6.31px;
-  min-height: 6.31px;
-  min-width: 6.31px;
+  height: 6px;
+  width: 6px;
+  min-height: 6px;
+  min-width: 6px;
   border-radius: 50%;
   background-color: #2e2e48;
 }
 
 .exp-item__first-section-timeline-line {
-  width: 1.1px;
+  width: 1px;
   height: 100%;
   background-color: #e2e6ee;
   margin-top: 8.96px;
@@ -59,9 +59,9 @@
 
 .exp-item-mid-sec__top-date {
   color: #47516b;
-  font-size: 10.1px;
+  font-size: 10px;
   font-weight: 400;
-  line-height: 13.15px;
+  line-height: 13px;
   letter-spacing: 0.01em;
   text-align: left;
 
@@ -113,14 +113,14 @@
   width: 100%;
   color: #79819a;
   font-weight: 400;
-  font-size: 10.1px;
+  font-size: 10px;
   font-family: "DM Sans", sans-serif;
 }
 
 /* Desktop view */
 @media only screen and (min-width: 768px) {
   .experience-list {
-    padding-top: 32.32px;
+    padding-top: 32px;
   }
 
   .exp-item {
@@ -137,19 +137,19 @@
   }
 
   .experience-item-first-section-timeline-circle {
-    height: 6.31px;
-    width: 6.31px;
-    min-height: 6.31px;
-    min-width: 6.31px;
+    height: 6px;
+    width: 6px;
+    min-height: 6px;
+    min-width: 6px;
     border-radius: 50%;
     background-color: #2e2e48;
   }
 
   .exp-item__first-section-timeline-line {
-    width: 1.1px;
+    width: 1px;
     height: 100%;
     background-color: #e2e6ee;
-    margin-top: 8.96px;
+    margin-top: 9px;
   }
 
   .exp-item__dynamic-section {
@@ -168,6 +168,8 @@
 
   .exp-item-mid-sec__top {
     width: 100%;
+    min-width: 200px;
+
     display: flex;
     flex-direction: row;
     gap: 4px;

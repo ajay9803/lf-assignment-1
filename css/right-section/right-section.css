@@ -5,10 +5,10 @@
 }
 
 .right-section__timeline-circle {
-  height: 32.32px;
-  width: 32.32px;
-  min-width: 32.32px;
-  min-height: 32.32px;
+  height: 32px;
+  width: 32px;
+  min-width: 32px;
+  min-height: 32px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -18,14 +18,14 @@
 }
 
 .right-section__small-circle {
-  height: 8.5px;
-  width: 8.5px;
+  height: 9px;
+  width: 9px;
   border-radius: 50%;
   background-color: #5531a7;
 }
 
 .right-section__timeline-line {
-  width: 1.1px;
+  width: 1px;
   height: 100%;
   background-color: #e2e6ee;
 }
@@ -41,13 +41,13 @@
 .right-section__container-data {
   display: flex;
   flex-direction: column;
-  padding-left: 32.32px;
-  padding-bottom: 48.48px;
+  padding-left: 32px;
+  padding-bottom: 48px;
   width: 100%;
 }
 
 .right-section__container-title {
-  font-size: 24.24px;
+  font-size: 24px;
   font-weight: 500;
   color: #2e2e48;
 }

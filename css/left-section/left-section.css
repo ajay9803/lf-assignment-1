@@ -32,7 +32,7 @@
 .profile__quote {
   display: flex;
   justify-content: start;
-  margin-bottom: 32.32px;
+  margin-bottom: 32px;
 }
 
 .profile__quote-content {
@@ -44,50 +44,52 @@
 .profile__quote-desc {
   padding: 0px 10px;
   margin-bottom: 4px;
-  font-size: 18.18px;
+  font-size: 18px;
   position: relative;
 }
 
 .profile__quote-desc::before {
   position: absolute;
-  left: -0px;
+  left: -6px;
   content: "“";
+  font-size: 30px;
   color: #79819a;
 }
 
 .profile__quote-desc::after {
   content: "”";
   position: absolute;
-  right: 0px;
+  right: -6px;
+  font-size: 30px;
   color: #79819a;
 }
 
 .profile__quote-owner {
   color: #79819a;
-  font-size: 12.12px;
+  font-size: 12px;
   padding: 0 10px;
   font-family: "DM Sans", sans-serif;
 }
 
 .profile__divider {
-  height: 1.5px;
+  height: 1px;
   width: 100%;
   background-color: #e2e6ee;
 }
 
 .profile__contact {
-  margin: 32.32px 0px;
+  margin: 32px 0px;
   display: flex;
   flex-direction: column;
   align-items: start;
   width: 100%;
-  row-gap: 24.24px;
+  row-gap: 24px;
 }
 
 .profile__contact-row {
   display: flex;
   flex-direction: column;
-  row-gap: 24.24px;
+  row-gap: 24px;
   width: 100%;
   column-gap: 2px;
 }
@@ -97,7 +99,7 @@
   flex: 100%;
   flex-direction: row;
   align-items: start;
-  column-gap: 16.16px;
+  column-gap: 16px;
 }
 
 .profile__contact-icon {
@@ -118,7 +120,7 @@
 }
 
 .profile__contact-title {
-  font-size: 12.12px;
+  font-size: 12px;
   font-weight: 400;
   color: #79819a;
   font-family: "DM Sans", sans-serif;
@@ -128,16 +130,17 @@
   font-size: 14px;
   font-weight: 500;
   color: #47516b;
+  text-decoration: none;
 }
 
 .profile__social {
-  margin: 32.32px 0px;
+  margin: 32px 0px;
   width: 100%;
 }
 
 .profile__social-title {
-  margin-bottom: 24.24px;
-  font-size: 12.12px;
+  margin-bottom: 24px;
+  font-size: 12px;
   font-weight: 400;
   color: #79819a;
   font-family: "DM Sans", sans-serif;
@@ -174,13 +177,13 @@
 }
 
 .profile__languages {
-  margin: 32.32px 0px;
+  margin: 32px 0px;
   width: 100%;
 }
 
 .profile__languages-title {
-  margin-bottom: 24.24px;
-  font-size: 12.12px;
+  margin-bottom: 24px;
+  font-size: 12px;
   font-weight: 400;
   color: #79819a;
   font-family: "DM Sans", sans-serif;
@@ -201,13 +204,13 @@
 }
 
 .profile__language-title {
-  font-size: 14.14px;
+  font-size: 14px;
   font-weight: 050;
   color: #47516b;
 }
 
 .profile__language-data {
-  font-size: 12.12px;
+  font-size: 12px;
   font-weight: 400;
   color: #79819a;
   font-family: "DM Sans", sans-serif;
@@ -217,7 +220,7 @@
   .profile__contact-row {
     display: flex;
     flex-direction: row;
-    row-gap: 24.24px;
+    row-gap: 24px;
     width: 100%;
     column-gap: 2px;
   }
